@@ -1,0 +1,33 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="20" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="39.199981689453125" scrolly="-6.400024414062727" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="8e/y]LpCnUEeaH=LV|qF" inline="false" x="50" y="30">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="u6FD@cul2_d4a3Qt^XQ2">
+          <field name="FIELDNAME">Sphere_black</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="qBh1f?/}qN?iB$8:*#)8">
+          <value name="VALUE2">
+            <shadow type="materialList" id="!~yY1k+Um2T%l=p=zQft">
+              <field name="FIELDNAME">paint_black</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="Uq176P%Gev.Z8j|mFM!K">
+              <field name="FIELDNAME">metal_stand</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="903.5999999999999" viewport-y="37" viewport-w="614.4" viewport-h="353.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
